@@ -1,9 +1,20 @@
-<h1>New Product</h1>
 
-<%= simple_form_for(product) do |f| %>
-<%= f.input :title %>
-<%= f.input :description %>
-<%= f.input :image %>
-<%= f.input :price %>
-<%= f.submit 'Create Product' %>
-<%end %>
+<div class="section">
+  <div class="container">
+    <h1>New Product</h1>
+    <div class="article-products">
+      <%= simple_form_for(product) do |f| %>
+        <%= f.input :title %>
+        <%= f.input :description %>
+        <%= f.input :image %>
+        <%= f.input :price %>
+        <%= f.submit 'Create Product' %>
+      <% end %>
+    </div>
+    <div class="section">
+      <br>
+      <%= link_to "Back", products_path(@products)  %>
+    </div>
+  </div>
+</div>
+
