@@ -5,7 +5,10 @@
     <% @products.each do |product| %>
     <li><%= product.title %></li>
     <li><%= product.description %></li>
-    <li><%= product.image %></li>
+
+   <!--  Add image_tag here! -->
+
+    <li><%= image_tag product.image, alt: 'alttext' %></li>
     <li><%= product.price %></li>
   <% end %>
   </ul>

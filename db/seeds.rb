@@ -35,6 +35,7 @@ Product.create!(
     It allows you to run applications at scale, adding new resources as needed.
     Docker provides a reliable, consistent environment that’s guaranteed to work
     the same everywhere.
+
     This book gives you a solid foundation on using Docker and fitting it into your development
     workflow and deployment process.',
   image: 'ridocker.jpg',
