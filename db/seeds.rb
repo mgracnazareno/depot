@@ -19,11 +19,7 @@ Product.create!(
     Duis ultricies lacus sed turpis tincidunt. Et tortor at risus viverra adipiscing at.
     Eu turpis egestas pretium aenean. Aliquam sem fringilla ut morbi tincidunt augue
     interdum velit euismod. Vulputate eu scelerisque felis imperdiet proin fermentum leo vel.
-    Interdum varius sit amet mattis vulputate. Nunc vel risus commodo viverra maecenas
-    accumsan lacus. Mauris rhoncus aenean vel elit scelerisque mauris pellentesque.
-    Proin fermentum leo vel orci porta non pulvinar neque. Vel facilisis volutpat est velit.
-    Commodo quis imperdiet massa tincidunt nunc pulvinar. Orci eu lobortis elementum nibh.
-    Risus nullam eget felis eget nunc lobortis mattis aliquam. Egestas egestas fringilla
+    Interdum varius sit amet mattis vulputate. Egestas egestas fringilla
     phasellus faucibus scelerisque eleifend donec pretium vulputate.',
   image: 'dpchat.jpg',
   price: 29.00

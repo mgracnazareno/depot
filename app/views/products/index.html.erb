@@ -1,15 +1,18 @@
-<h1>Products</h1>
 
-<div class="products-list">
-  <ul>
-    <% @products.each do |product| %>
-    <li><%= product.title %></li>
-    <li><%= product.description %></li>
-
-   <!--  Add image_tag here! -->
-
-    <li><%= image_tag product.image, alt: 'alttext' %></li>
-    <li><%= product.price %></li>
-  <% end %>
-  </ul>
+<div class="container">
+  <div class="row">
+    <h1>Products</h1>
+    <div class="card-product d-flex">
+      <% @products.each do |product| %>
+      <div class="card-product-image mx-3">
+        <%= image_tag product.image, alt: 'alttext' %>
+      </div>
+       <div class="card-product-infos">
+        <h3><%= product.title %></h3>
+        <p><%= product.description %></p>
+        <p><%= product.price %></p>
+     </div>
+      <% end %>
+    </div>
+  </div>
 </div>

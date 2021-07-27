@@ -1,3 +1,32 @@
 // Place all the styles related to the Products controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.card-product {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+
+.card-product-image {
+  height: 100%;
+  width: 200px;
+  object-fit: cover;
+}
+
+.card-product h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card-product p {
+  font-size: 12px;
+  line-height: .5em;
+  margin: 0;
+}
+
+.card-product .card-product-infos {
+  padding: 16px;
+}
